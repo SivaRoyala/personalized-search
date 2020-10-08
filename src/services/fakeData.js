@@ -1,0 +1,62 @@
+export const jsonResponse = {
+  data: {
+    documents: [
+      {
+        id: 1,
+        title: "Document 1",
+        description: "Document Description 1",
+        type: "Type 1",
+        typeDescription: "Type Description 1",
+        fileName: "File Name 1",
+      },
+      {
+        id: 2,
+        title: "Document 2",
+        description: "Document Description 2",
+        type: "Type 2",
+        typeDescription: "Type Description 2",
+        fileName: "File Name 2",
+      },
+      {
+        id: 3,
+        title: "Document 3",
+        description: "Document Description 3",
+        type: "Type 3",
+        typeDescription: "Type Description 3",
+        fileName: "File Name 3",
+      },
+      {
+        id: 4,
+        title: "Document 4",
+        description: "Document Description 4",
+        type: "Type 4",
+        typeDescription: "Type Description 4",
+        fileName: "File Name 4",
+      },
+      {
+        id: 5,
+        title: "Document 5",
+        description: "Document Description 5",
+        type: "Type 5",
+        typeDescription: "Type Description 5",
+        fileName: "File Name 5",
+      },
+      {
+        id: 6,
+        title: "Document 6",
+        description: "Document Description 6",
+        type: "Type 6",
+        typeDescription: "Type Description 6",
+        fileName: "File Name 6",
+      },
+      {
+        id: 7,
+        title: "Document 7",
+        description: "Document Description 7",
+        type: "Type 7",
+        typeDescription: "Type Description 7",
+        fileName: "File Name 7",
+      },
+    ],
+  },
+};
