@@ -1,39 +1,29 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
-import MyDocuments from "./MyDocuments/MyDocuments";
-import SubScriptionManagement from "./Subscription/SubScriptionManagement";
-import Admin from "./Admin/Admin";
+import ToolBarComp from './ToolBarComp';
+import FooterComp from './FooterComp';
+import ParentComponent from './Test'
+import TypesOfFood from './TypesOfFood';
+import SampleComponent2 from './SampleComponent2';
+import StudentRegistration from './StudentRegistration';
+import StudentsList from './StudentsList';
 import "./App.css";
+
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">MY DOCUMENTS</Link>
-            </li>
-            <li>
-              <Link to="/subscription">SUBSCRIPTION MANAGEMENT</Link>
-            </li>
-            <li>
-              <Link to="/admin">ADMIN</Link>
-            </li>
-          </ul>
-        </nav>
+    <React.Fragment>
+      {/* <ToolBarComp></ToolBarComp> */}
+      
+      {/* <FooterComp></FooterComp> */}
+      {/* <ParentComponent></ParentComponent>
+      <TypesOfFood />
+      <SampleComponent2 /> */}
 
-        <Switch>
-          <Route exact path="/" component={MyDocuments}></Route>
-          <Route
-            exact
-            path="/subscription"
-            component={SubScriptionManagement}
-          ></Route>
-          <Route exact path="/admin" component={Admin}></Route>
-        </Switch>
-      </div>
-    </Router>
+
+
+  <StudentRegistration />
+  <StudentsList />
+    </React.Fragment>
   );
 }
 
